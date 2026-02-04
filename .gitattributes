@@ -4,3 +4,28 @@
 # Declare files that will always have CRLF line endings on checkout.
 *.cmd text eol=crlf
 *.bat text eol=crlf
+
+# Handle line endings automatically
+* text=auto
+
+# Java source files - Force LF
+*.java text eol=lf
+*.gradle text eol=lf
+*.kts text eol=lf
+*.xml text eol=lf
+*.properties text eol=lf
+*.txt text eol=lf
+
+# Gradle wrapper script - Must be LF for Linux/macOS
+gradlew text eol=lf
+
+# Windows batch files - Must be CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files
+*.jar binary
+*.png binary
+*.jpg binary
+*.gif binary
+
