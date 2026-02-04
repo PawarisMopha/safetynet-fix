@@ -7,3 +7,73 @@
 .settings/
 .project
 .classpath
+
+# --- [ Build Output ] ---
+build/
+bin/
+out/
+.gradle/
+.incremental/
+
+# --- [ IDEs & Editors ] ---
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.settings/
+.classpath
+.project
+.metadata/
+
+# VS Code
+.vscode/
+
+# --- [ System Files ] ---
+.DS_Store
+Thumbs.db
+
+# --- [ Log & Temporary ] ---
+*.log
+*.tmp
+*.temp
+
+# --- [ Gradle ] ---
+# ไม่ควรเก็บไฟล์โลคัลของการตั้งค่า
+local.properties
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.settings/
+.metadata/
+.classpath
+.project
+
+# Visual Studio Code
+.vscode/
+
+# Local configuration
+local.properties
+.deviceconf
+
+# Log files & OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Stop tracking temporary files
+*.tmp
+*.bak
+
